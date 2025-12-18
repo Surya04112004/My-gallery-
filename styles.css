@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(105, 222, 243);
+}
+.container{
+    border: 1px silver;
+    padding: 20px;
+    width: 300px;
+}
+p{
+    color: blue;
+}
+h1{
+    color: rgb(235, 232, 234);
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: rgb(17, 167, 226);
+    color: azure;
+    padding: 10px;
+    border: none;
+}
+.GOPURAM{
+    width: 200px;
+    height: 200px;
+}
+.vid{
+    width: 300px;
+    height: auto;
+}
+header{
+    background-color: rgba(11, 204, 27, 0.795);
+    color: #d8d4d4;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.img2{
+    width: 25px;
+    height: 25px;
+}
+.site-name{
+    font-size: 25px;
+    font-weight: bold;
+    color: #bd610b;
+}
+footer{
+    background-color: rgba(11, 192, 20, 0.753);
+    color: #d8d4d4;
+    padding: 15px;
+    text-align: center;
+}
+.special{
+    color: #d8d4d4;
+    font-family: sans-serif;
+}
+.zoom{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
